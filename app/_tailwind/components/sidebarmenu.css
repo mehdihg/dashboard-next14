@@ -1,0 +1,11 @@
+.menu-container{
+    @apply p-5 flex items-center gap-[10px] rounded-lg;
+
+    &:hover{
+        @apply bg-[#2e374a]
+    }
+    
+}
+.menu-container.active {
+    @apply bg-[#2e374a] ;
+}

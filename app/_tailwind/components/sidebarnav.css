@@ -1,0 +1,19 @@
+.navbar-container{
+    @apply flex justify-between items-center p-5 rounded-[10px] bg-secondary;
+
+}
+.navbar-menu{
+    @apply flex items-center gap-5;
+}
+.navbar-icons {
+    @apply flex items-center gap-5;
+}
+.navbar-title {
+    @apply font-bold text-secondaryText capitalize;
+}
+.navbar-search{
+    @apply flex items-center gap-[10px] bg-[#2e374a] p-[10px] rounded-lg;
+}
+.navbar-input{
+    @apply bg-transparent border-none text-primaryText;
+}

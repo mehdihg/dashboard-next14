@@ -1,0 +1,31 @@
+.sidebar-container{
+    @apply sticky top-[40px];
+}
+.user{
+    @apply flex items-center gap-5 mb-5;
+}
+.user-image{
+    @apply rounded-full bg-cover;
+}
+.user-detail{
+    @apply flex flex-col;
+}
+.username{
+   @apply font-semibold;
+}
+.user-title{
+    @apply text-xs text-secondaryText;
+}
+.sidebar-list{
+    @apply list-none;
+}
+.sidebar-title{
+    @apply text-primaryText font-bold text-sm my-[5px] mx-0;
+}
+.sidebar-logout{
+    @apply p-5 flex items-center gap-[10px] rounded-lg w-full text-white;
+
+    &:hover{
+        @apply bg-[#2e374a]
+    }
+}
