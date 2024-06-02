@@ -1,0 +1,22 @@
+.card-container{
+    @apply bg-secondary p-5 rounded-lg flex gap-5 cursor-pointer;
+    &:hover{
+        @apply bg-[#2e374a]
+    }
+}
+.card-texts{
+    @apply flex flex-col gap-5;
+}
+.card-number{
+    @apply text-2xl font-medium;
+}
+.card-detail{
+    @apply text-sm font-medium;
+}
+.positive{
+    @apply text-lime-400;
+}
+.negative{
+    @apply text-red-400;
+}
+

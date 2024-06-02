@@ -1,0 +1,12 @@
+.dashboard-container{
+@apply flex gap-5 mt-5;
+}
+.dashboard-main{
+@apply flex grow-[3] flex-col gap-5;
+}
+.dashboard-cards{
+@apply flex gap-5 justify-between;
+}
+.dashboard-rightbar{
+    @apply grow-[1] ;
+}
